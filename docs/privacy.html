@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anlamca Gizlilik Politikası</title>
+  <link rel="icon" href="icon128.png">
+  <style>
+    :root { --bg:#fffdf8; --text:#2c2c2a; --muted:#6b6a64; --border:#e3e1d8; --accent:#b5482c; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#262624; --text:#f1efe8; --muted:#b4b2a9; --border:#46453f; --accent:#f0a183; } }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+    main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+    header { display:flex; align-items:center; gap:12px; }
+    header img { width:44px; height:44px; border-radius:10px; }
+    h1 { font-size:26px; margin:0; } h2 { font-size:19px; margin-top:32px; }
+    .muted { color:var(--muted); } a { color:var(--accent); }
+    table { width:100%; border-collapse:collapse; font-size:15px; }
+    th, td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--border); }
+    code { font-size:14px; }
+  </style>
+</head>
+<body>
+<main>
+  <header><img src="icon128.png" alt=""><h1>Anlamca Gizlilik Politikası</h1></header>
+  <p class="muted">Son güncelleme: 14 Ekim 2026 · <a href="#en">English below</a></p>
+  <ul>
+    <li><strong>Gönderilen tek şey, aradığın kelime:</strong> Bir kelimenin anlamını istediğinde, o kelime yalnızca Türk Dil Kurumu'nun sözlük sitesine (<code>sozluk.gov.tr</code>) gönderilir. Sayfanın geri kalanı, adresi ya da başka bir bilgi gönderilmez.</li>
+    <li><strong>Veri toplanmaz:</strong> Geliştiricinin sunucusu yoktur. Analitik, telemetri, reklam ya da hesap yoktur.</li>
+    <li><strong>Yerelde tutulanlar:</strong> Son 500 aramanın önbelleği, son aramalar listesi ve "çift tıklayınca göster" ayarı. Hepsi yalnızca tarayıcının yerel eklenti deposunda tutulur.</li>
+  </ul>
+  <h2>İzinler</h2>
+  <table>
+    <tr><th>İzin</th><th>Neden</th></tr>
+    <tr><td><code>sozluk.gov.tr</code> erişimi</td><td>Kelimenin anlamını TDK'dan almak için.</td></tr>
+    <tr><td><code>contextMenus</code>, <code>activeTab</code>, <code>scripting</code></td><td>Sağ tık menüsünden ya da kısayolla, o an açık sekmede anlam baloncuğunu göstermek için.</td></tr>
+    <tr><td><code>storage</code></td><td>Önbellek, son aramalar ve ayar için.</td></tr>
+    <tr><td>Tüm siteler (isteğe bağlı)</td><td>Yalnızca "çift tıklayınca göster" açılırsa istenir. Böylece çift tıkladığın kelimenin anlamı her sitede gösterilebilir. Ayarı kapatınca izin geri bırakılır.</td></tr>
+  </table>
+  <h2 id="en">English</h2>
+  <p>Anlamca sends only the word you look up, and only to the Turkish Language Association's dictionary (<code>sozluk.gov.tr</code>). It collects no data: there is no developer server, no analytics, no telemetry, no ads and no accounts. It stores a cache of recent lookups, the list of recent words and the double-click setting, all only in your browser's local extension storage. Access to all sites is optional and is requested only when you turn on "show on double-click".</p>
+  <h2>Kaynak kod · Source</h2>
+  <p><a href="https://github.com/betulsimsek/anlamca">github.com/betulsimsek/anlamca</a></p>
+  <h2>İletişim · Contact</h2>
+  <p><a href="mailto:eylulbetulsimsek@gmail.com">eylulbetulsimsek@gmail.com</a></p>
+</main>
+</body>
+</html>

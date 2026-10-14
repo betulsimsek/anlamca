@@ -1,0 +1,41 @@
+name: Publish to Chrome Web Store
+
+on:
+  push:
+    branches: [main]
+    # Only files that end up in the extension package trigger a release.
+    paths:
+      - "manifest.json"
+      - "src/**"
+      - "icons/icon*.png"
+      - "_locales/**"
+  workflow_call:
+    inputs:
+      ref:
+        type: string
+        default: main
+
+jobs:
+  test:
+    uses: ./.github/workflows/test.yml
+    with:
+      ref: ${{ inputs.ref }}
+
+  publish:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+      - name: Package
+        run: npm run package
+      - name: Upload & publish to Chrome Web Store
+        uses: mnao305/chrome-extension-upload@v5.0.0
+        with:
+          file-path: anlamca.zip
+          extension-id: ${{ secrets.CHROME_EXTENSION_ID }}
+          client-id: ${{ secrets.CHROME_CLIENT_ID }}
+          client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
+          refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
+          publish: true

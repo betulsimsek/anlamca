@@ -1,0 +1,15 @@
+{
+  "name": "anlamca",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Select a Turkish word and see its meaning from the TDK dictionary, without leaving the page.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/unit.test.mjs",
+    "test:e2e": "node test/e2e.mjs",
+    "package": "rm -f anlamca.zip && zip -qr anlamca.zip manifest.json src icons/icon16.png icons/icon32.png icons/icon48.png icons/icon128.png _locales LICENSE"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.12.0"
+  }
+}

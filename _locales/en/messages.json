@@ -1,0 +1,89 @@
+{
+  "extName": {
+    "message": "Anlamca"
+  },
+  "extDescription": {
+    "message": "Select a Turkish word and see its meaning from the TDK dictionary instantly. Handles inflected words too. No data collection."
+  },
+  "tagline": {
+    "message": "The TDK dictionary, without leaving the page"
+  },
+  "searchPlaceholder": {
+    "message": "Search a word…"
+  },
+  "searchButton": {
+    "message": "Search"
+  },
+  "recent": {
+    "message": "Recent"
+  },
+  "dblclickTitle": {
+    "message": "Show on double-click"
+  },
+  "dblclickHint": {
+    "message": "Shows the meaning of any word you double-click. Needs access to all sites to turn on."
+  },
+  "shortcutLine": {
+    "message": "Shortcut: select a word and press $KEY$. Also in the right-click menu.",
+    "placeholders": {
+      "KEY": {
+        "content": "$1",
+        "example": "Alt+Shift+S"
+      }
+    }
+  },
+  "menuLine": {
+    "message": "Select a word and right-click: “Look up in TDK with Anlamca”."
+  },
+  "menuLookup": {
+    "message": "Look up in TDK with Anlamca: “%s”"
+  },
+  "commandLookup": {
+    "message": "Look up the selected word in TDK"
+  },
+  "loading": {
+    "message": "Looking up…"
+  },
+  "notFound": {
+    "message": "Not found in the TDK dictionary."
+  },
+  "offline": {
+    "message": "TDK isn't answering right now. Try again in a bit, or use one of the links below."
+  },
+  "fromQuery": {
+    "message": "for “$Q$”",
+    "placeholders": {
+      "Q": {
+        "content": "$1",
+        "example": "kitaplarımızdan"
+      }
+    }
+  },
+  "proverbs": {
+    "message": "Proverbs and idioms"
+  },
+  "moreMeanings": {
+    "message": "$N$ more meanings",
+    "placeholders": {
+      "N": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "openInTdk": {
+    "message": "Open in TDK ↗"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "privacyLine": {
+    "message": "Only the word you look up is sent to TDK. Nothing else is collected."
+  },
+  "openInWiktionary": {
+    "message": "Search Wiktionary ↗"
+  },
+  "slow": {
+    "message": "TDK is slow to answer, still waiting…"
+  }
+}

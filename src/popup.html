@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="aw-root">
+  <main id="app">
+    <header class="head">
+      <img src="../icons/icon48.png" alt="" width="28" height="28">
+      <div class="title">
+        <strong data-i18n="extName"></strong>
+        <span class="muted" data-i18n="tagline"></span>
+      </div>
+    </header>
+
+    <form id="search">
+      <input id="q" type="search" autocomplete="off" spellcheck="false" data-i18n-placeholder="searchPlaceholder">
+      <button type="submit" data-i18n="searchButton"></button>
+    </form>
+
+    <section id="result"></section>
+
+    <section id="recent-wrap" class="hidden">
+      <div class="label" data-i18n="recent"></div>
+      <div id="recent"></div>
+    </section>
+
+    <section class="card">
+      <label class="row">
+        <span>
+          <span class="opt-title" data-i18n="dblclickTitle"></span>
+          <span class="muted small" data-i18n="dblclickHint"></span>
+        </span>
+        <span class="switch"><input type="checkbox" id="dblclick"><span class="slider"></span></span>
+      </label>
+      <p class="muted small" id="shortcut-line"></p>
+    </section>
+
+    <footer class="muted foot" data-i18n="privacyLine"></footer>
+  </main>
+  <script src="stem.js"></script>
+  <script src="render.js"></script>
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

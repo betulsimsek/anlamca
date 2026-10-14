@@ -1,0 +1,89 @@
+{
+  "extName": {
+    "message": "Anlamca"
+  },
+  "extDescription": {
+    "message": "Türkçe bir kelimeyi seç, TDK Güncel Türkçe Sözlük'teki anlamını hemen gör. Ekli kelimeleri de çözer. Veri toplamaz."
+  },
+  "tagline": {
+    "message": "TDK sözlük, sayfadan ayrılmadan"
+  },
+  "searchPlaceholder": {
+    "message": "Kelime ara…"
+  },
+  "searchButton": {
+    "message": "Ara"
+  },
+  "recent": {
+    "message": "Son aramalar"
+  },
+  "dblclickTitle": {
+    "message": "Çift tıklayınca göster"
+  },
+  "dblclickHint": {
+    "message": "Her sitede çift tıkladığın kelimenin anlamını gösterir. Açmak için tüm sitelere erişim izni ister."
+  },
+  "shortcutLine": {
+    "message": "Kısayol: kelimeyi seç, $KEY$ tuşlarına bas. Sağ tık menüsünde de var.",
+    "placeholders": {
+      "KEY": {
+        "content": "$1",
+        "example": "Alt+Shift+S"
+      }
+    }
+  },
+  "menuLine": {
+    "message": "Kelimeyi seçip sağ tıkla: “Anlamca ile TDK'da ara”."
+  },
+  "menuLookup": {
+    "message": "Anlamca ile TDK'da ara: “%s”"
+  },
+  "commandLookup": {
+    "message": "Seçili kelimeyi TDK'da ara"
+  },
+  "loading": {
+    "message": "Aranıyor…"
+  },
+  "notFound": {
+    "message": "TDK sözlüğünde bulunamadı."
+  },
+  "offline": {
+    "message": "TDK şu an yanıt vermiyor. Biraz sonra tekrar dene ya da aşağıdaki linklerden birini aç."
+  },
+  "fromQuery": {
+    "message": "“$Q$” için",
+    "placeholders": {
+      "Q": {
+        "content": "$1",
+        "example": "kitaplarımızdan"
+      }
+    }
+  },
+  "proverbs": {
+    "message": "Atasözleri ve deyimler"
+  },
+  "moreMeanings": {
+    "message": "$N$ anlam daha",
+    "placeholders": {
+      "N": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "openInTdk": {
+    "message": "TDK'da aç ↗"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "privacyLine": {
+    "message": "Sadece aradığın kelime TDK'ya gönderilir. Başka veri toplanmaz."
+  },
+  "openInWiktionary": {
+    "message": "Vikisözlük'te ara ↗"
+  },
+  "slow": {
+    "message": "TDK geç yanıt veriyor, bekleniyor…"
+  }
+}
